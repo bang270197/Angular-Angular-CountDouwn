@@ -1,0 +1,5 @@
+<p>time works!</p>
+<p>{{curSecond}}</p>
+<button *ngIf="isPaused === true" type="button" (click)="starTime()">start</button>
+<button *ngIf="isPaused === false" type="button" (click)="stopTime()">stop</button>
+<button (click)="resetTime()">Reset</button>
